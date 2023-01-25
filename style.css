@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(241, 238, 238);
+    background-color: rgba(236, 234, 234, 0.76);
 }
 .main{
     width: 70%;
@@ -9,12 +9,19 @@ body{
 }
 .navbar{
     display: flex;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
+    margin-left: 30px
+
+  
     
 }
+.navbar img{
+    margin-right: 225px;
+    margin-top: 20px;
+}
 .navbar a{
-padding: 80px 0px 0px 0px;
-margin-left: 90px;
+
+margin: 80px 40px 30px 0px;
 text-decoration: none;
 color: gray;
 }
@@ -38,15 +45,20 @@ color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .formImage img{
-    margin-left: 50px;
+    
     width: 50px;
     height: 30x;
- 
 }
-.textImage img{
-    width: 50px;
-    height: 60px;
-    margin-left: 50px;
+.formImage a img{
+    background-color: white;
+    margin: 40px 0px 0px 50px;
+}
+
+.textImage a img{
+    width: 55px;
+    height: 70px;
+    margin: 0px 0px 0px 50px;
+    background-color: white;
 }
 .formImage2{
     display: flex;
@@ -56,6 +68,7 @@ border: none;
 font-size: 20px;
 width: 930px;
 height: 200px;
+color: darkcyan;
 }
 .textarea:focus{
     border: none;}
@@ -64,10 +77,16 @@ height: 200px;
     font-size: 30px;
     text-align: center;
 }
+
 .inputsave{
     text-align: right;
-    margin-right: 50px;
-    margin-bottom: 50px
+    margin-right: 40px;
+}
+.inputsave button{
+width: 200px;
+height: 70px;
+font-size: 20px;
+color: rgb(131, 131, 131);
 }
 .down{
     text-align: center;
